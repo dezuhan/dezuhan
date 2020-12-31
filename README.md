@@ -13,6 +13,7 @@ Besides coding skills, I also become a designer, especially logo design or visua
   * [Twitter](https://twitter.com/yukoodstudio)
   * [Dribbble](https://dribbble.com/yukood)
   * [Behance](https://behance.net/yukood)
+* Personal chat [WhatsApp](https://wa.me/6285156216653)
 
 
 ```
