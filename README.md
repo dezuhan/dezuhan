@@ -11,4 +11,4 @@ Besides coding skills, I also become a designer, especially logo design or visua
   * [Dribbble](https://dribbble.com/yukood)
   * [Behance](https://behance.net/yukood)
 
-`Author : @dzuhanramadhan`
+Author : `@dzuhanramadhan`
