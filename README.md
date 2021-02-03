@@ -4,7 +4,6 @@ Besides coding skills, I also become a designer, especially logo design or visua
 
 * 💳 Donate with [PayPal](https://paypal.me/dzuhanramadhan) & [Buy me a coffee](https://buymeacoffee.com/dzuhanramadhan)
 * 📂 Check our repositories
-  * [Github Org.](https://github.com/yukoodstudio)
   * [Gitlab](https://gitlab.com/dzuhanramadhan)
   * [Bitbucket](https://bitbucket.org/dzuhanramadhan/)
 * 📱 Stay connected
