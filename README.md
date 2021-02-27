@@ -7,9 +7,8 @@ Besides coding skills, I also become a designer, especially logo design or visua
   * [Gitlab](https://gitlab.com/dzuhanramadhan)
   * [Bitbucket](https://bitbucket.org/dzuhanramadhan/)
 * 📱 Stay connected
-  * [Instagram](https://instagram.com/dzuhanramadhan) (Personal)
-  * [Instagram](https://instagram.com/yukood.studio)
-  * [Twitter](https://twitter.com/yukoodstudio)
+  * [Instagram](https://instagram.com/dzuhanramadhan)
+  * [Twitter](https://twitter.com/dzuhanramadhan)
   * [Dribbble](https://dribbble.com/yukood)
   * [Behance](https://behance.net/yukood)
 * Personal chat [WhatsApp](https://wa.me/6285156216653)
