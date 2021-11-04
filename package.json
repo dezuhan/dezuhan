@@ -1,0 +1,39 @@
+{
+	"name": "dezuhan",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"start": "live-server --host=127.0.0.1 --port=3002 --wait=0",
+		"sass": "sass -w --no-source-map assets/scss:assets/css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/dezuhan/dezui.git"
+	},
+	"keywords": [
+		"personal",
+		"profile",
+		"developer",
+		"pixel artist",
+		"street photographer",
+		"graphic designer"
+	],
+	"authors": {
+		"founder": "Dzuhan Ramadhan <github@dezuhan>",
+		"contributors": [""]
+	},
+	"license": "MIT",
+	"homepage": "https://dezuhan.github.io/dezui",
+	"community": {
+		"announcement": "https://github.com/dezuhan/dezui/discussions/categories/announcements",
+		"discussions": {
+			"root": "https://github.com/dezuhan/dezui/discussions",
+			"features-request": "https://github.com/dezuhan/dezui/discussions/categories/features-request",
+			"qna": "https://github.com/dezuhan/dezui/discussions/categories/q-a"
+		},
+		"bugs": "https://github.com/dezuhan/dezui/issues",
+		"wiki": "https://github.com/dezuhan/dezui/wiki",
+		"support": "https://buymeacoffee.com/dezuhan"
+	}
+}

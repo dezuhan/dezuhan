@@ -1,0 +1,41 @@
+#card-project {
+	display: block;
+	box-sizing: border-box;
+	padding-top: 2.5rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #dddddd;
+	&:first-child {
+		padding-top: 0 !important;
+	}
+	&:last-child {
+		padding-bottom: 0 !important;
+		border-bottom: none !important;
+	}
+	#thumbnail {
+		margin-bottom: 1rem;
+		a {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	#tag {
+		margin-bottom: 1rem;
+		color: #ddd;
+		font-family: Raleway;
+		font-size: 1.2rem;
+		text-transform: uppercase;
+	}
+
+	#title {
+		font-size: 1.2rem;
+		margin: 0;
+		a {
+			color: black;
+			&:hover {
+				text-decoration: none !important;
+			}
+		}
+	}
+}
