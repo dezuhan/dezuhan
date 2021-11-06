@@ -1,0 +1,32 @@
+{
+	"portfolio": [
+		{
+			"title": "DezUI CSS Framework",
+			"status": true,
+			"homepage": "dezui.html",
+			"thumbnail": "dezui.png",
+			"tag": "Front End Development"
+		},
+		{
+			"title": "カクタス - Kakutasu | Cactus",
+			"status": true,
+			"homepage": "kakutasu.html",
+			"thumbnail": "kakutasu.png",
+			"tag": "Pixel Art"
+		},
+		{
+			"title": "モンステラ - Monsutera | Monstera",
+			"status": true,
+			"homepage": "monsutera.html",
+			"thumbnail": "monsutera.png",
+			"tag": "Pixel Art"
+		},
+		{
+			"title": "Retro Mini PC & Pentablet",
+			"status": true,
+			"homepage": "retro-mini-pc-pentablet.html",
+			"thumbnail": "retro-computer.png",
+			"tag": "Pixel Art"
+		}
+	]
+}

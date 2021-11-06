@@ -1,0 +1,76 @@
+{
+	"dezui": {
+		"title": "DezUI CSS Framework",
+		"description": "DezUI is a build fast, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and easy to kickstart development of webapps and sites. DezUI provides a solution in handling simple website appearance and doesn't want to waste time in designing CSS. Based and proudly made in <span class='text-info'>Indonesia</span> released on 18 october 2021.",
+		"organizer": ["dezuhan"],
+		"status": true,
+		"link": [
+			"https://dezui.netlify.app",
+			"https://twitter.com/dezui",
+			"https://liberapay.com/dezui"
+		],
+		"date": [18, 10, 2021],
+		"thumbnail": "dezui.png",
+		"gallery": [
+			"dezui/dezui-front-page.png"
+		],
+		"role": {
+			"commission": false,
+			"non-profit": false,
+			"opensource": true,
+			"portfolio": true
+		},
+		"tag": "Front End Development"
+	},
+	"kakutasu": {
+		"title": "カクタス - Kakutasu | Cactus",
+		"description": "-",
+		"organizer": ["dezuhan"],
+		"status": true,
+		"link": [],
+		"date": [6, 10, 2021],
+		"thumbnail": "kakutasu.png",
+		"gallery": ["kakutasu/kakutasu.png"],
+		"role": {
+			"commission": false,
+			"non-profit": false,
+			"opensource": false,
+			"portfolio": true
+		},
+		"tag": "Pixel Art"
+	},
+	"monsutera": {
+		"title": "モンステラ - Monsutera | Monstera",
+		"description": "-",
+		"organizer": ["dezuhan"],
+		"status": true,
+		"link": [],
+		"date": [7, 10, 2021],
+		"thumbnail": "monsutera.png",
+		"gallery": ["monsutera/monsutera.png"],
+		"role": {
+			"commission": false,
+			"non-profit": false,
+			"opensource": false,
+			"portfolio": true
+		},
+		"tag": "Pixel Art"
+	},
+	"retro-mini-pc-pentablet": {
+		"title": "Retro Mini PC & Pentablet",
+		"description": "-",
+		"organizer": ["dezuhan"],
+		"status": true,
+		"link": [],
+		"date": [18, 10, 2021],
+		"thumbnail": "retro-computer.png",
+		"gallery": ["retro-mini-pc-pentablet/retro-mini-pc-pentablet.png"],
+		"role": {
+			"commission": false,
+			"non-profit": false,
+			"opensource": false,
+			"portfolio": true
+		},
+		"tag": "Pixel Art"
+	}
+}
