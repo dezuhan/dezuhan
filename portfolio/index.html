@@ -15,6 +15,16 @@
 			$("header").load("/assets/navbar/header.html"); 
 			$("footer").load("/assets/navbar/footer.html"); 
 		});
+
+		fetch("/assets/json/portfolios.json")
+		.then(response => {return response.json()})
+		.then(data => {
+			for (let i = 0; i < data.portfolio.length; i++) {
+				if (data.portfolio[i].status == true) {
+					document.getElementById("portfolio").innerHTML += `<div id="card-project"><div id="thumbnail"><a href="/portfolio/${data.portfolio[i].homepage}"><img src="/portfolio/thumbnails/${data.portfolio[i].thumbnail}"></a></div><h6 id="tag">${data.portfolio[i].tag}</h6><h6 id="title"><a href="/portfolio/${data.portfolio[i].homepage}">${data.portfolio[i].title}</a></h6></div>`
+				}
+			}
+		})
 	</script>
 </head>
 <body>
@@ -33,8 +43,6 @@
 			<div class="hero">
 				<h6>Latest project</h6>
 				<br>
-				<div id="latest-portfolio" class="flex column"></div>
-				<hr class="dotted">
 				<div id="portfolio" class="flex column"></div>
 			</div>
 		</div>

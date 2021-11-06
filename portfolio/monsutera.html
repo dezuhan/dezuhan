@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>DezUI CSS Framework</title>
+	<title>モンステラ - Monsutera | Monstera</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dezui/dezui/css/core.min.css">
 	<link rel="stylesheet" href="/assets/css/portfolio.css">
 
@@ -22,19 +22,19 @@
 			document.getElementById("summary").innerHTML = `
 			<div class="container container-tablet">
 				<div id="card-project">
-					<h5>${obj["dezui"].title}</h5>
-					<h6 id="tag">${obj["dezui"].tag}</h6>
+					<h5>${obj["monsutera"].title}</h5>
+					<h6 id="tag">${obj["monsutera"].tag}</h6>
 					<hr class="dotted">
 					<h6 id="subtitle">Summary</h6>
-					<p id="description">${obj["dezui"].description}</p>
+					<p id="description">${obj["monsutera"].description}</p>
 					<h6 id="subtitle">Galleries</h6>
 				</div>
 			</div>`
 
-			for (var i = 0; i < obj["dezui"].gallery.length; i++) {
+			for (var i = 0; i < obj["monsutera"].gallery.length; i++) {
 				document.getElementById("galleries").innerHTML += `
 				<div class="container container-laptop">
-					<img src="/portfolio/galleries/${obj["dezui"].gallery[i]}">
+					<img src="/portfolio/galleries/${obj["monsutera"].gallery[i]}">
 				</div>`
 			}
 		})
