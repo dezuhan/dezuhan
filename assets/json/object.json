@@ -5,7 +5,7 @@
 		"organizer": ["dezuhan"],
 		"status": true,
 		"link": "https://github.com/dezui",
-		"date": [18, 10, 2021],
+		"date": "18 OCT 2021",
 		"thumbnail": "dezui.png",
 		"gallery": [
 			"dezui/dezui-front-page.png"
@@ -18,15 +18,15 @@
 		},
 		"tag": "Front End Development"
 	},
-	"kakutasu": {
-		"title": "カクタス - Kakutasu | Cactus",
+	"monsutera": {
+		"title": "モンステラ - Monsutera | Monstera",
 		"description": "-",
 		"organizer": ["dezuhan"],
 		"status": true,
-		"link": "https://www.behance.net/gallery/128872387/-%28Kakutasu-Cactus%29",
-		"date": [6, 10, 2021],
-		"thumbnail": "kakutasu.png",
-		"gallery": ["kakutasu/kakutasu.png"],
+		"link": "https://www.behance.net/gallery/128905639/-%28Monsutera-Monstera%29",
+		"date": "7 OCT 2021",
+		"thumbnail": "monsutera.png",
+		"gallery": ["monsutera/monsutera.png"],
 		"role": {
 			"commission": false,
 			"non-profit": false,
@@ -35,15 +35,15 @@
 		},
 		"tag": "Pixel Art"
 	},
-	"monsutera": {
-		"title": "モンステラ - Monsutera | Monstera",
+	"kakutasu": {
+		"title": "カクタス - Kakutasu | Cactus",
 		"description": "-",
 		"organizer": ["dezuhan"],
 		"status": true,
-		"link": "https://www.behance.net/gallery/128905639/-%28Monsutera-Monstera%29",
-		"date": [7, 10, 2021],
-		"thumbnail": "monsutera.png",
-		"gallery": ["monsutera/monsutera.png"],
+		"link": "https://www.behance.net/gallery/128872387/-%28Kakutasu-Cactus%29",
+		"date": "6 OCT 2021",
+		"thumbnail": "kakutasu.png",
+		"gallery": ["kakutasu/kakutasu.png"],
 		"role": {
 			"commission": false,
 			"non-profit": false,
@@ -58,7 +58,7 @@
 		"organizer": ["dezuhan"],
 		"status": true,
 		"links": "https://www.behance.net/gallery/128872883/Retro-Mini-PC-Setup-with-Pentablet",
-		"date": [18, 10, 2021],
+		"date": "31 AUG 2021",
 		"thumbnail": "retro-computer.png",
 		"gallery": ["retro-mini-pc-pentablet/retro-mini-pc-pentablet.png"],
 		"role": {
