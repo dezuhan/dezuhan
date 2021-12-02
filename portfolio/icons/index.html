@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dezui/dezui/css/core.min.css">
+	<link rel="stylesheet" href="/assets/css/portfolio.css">
+
+	<link rel="icon" href="/assets/images/profile.png">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>
+		$(function(){
+			$("header").load("/assets/navbar/header.html"); 
+			$("footer").load("/assets/navbar/footer.html"); 
+		});
+
+		fetch("/assets/json/portfolios.json")
+		.then(response => {return response.json()})
+		.then(data => {
+			for (let i = 0; i < data.portfolio.length; i++) {
+				if (data.portfolio[i].status == true) {
+					document.getElementById("portfolio").innerHTML += `<div id="card-project"><div id="thumbnail"><a href="/portfolio/${data.portfolio[i].homepage}"><img src="/portfolio/thumbnails/${data.portfolio[i].thumbnail}"></a></div><h6 id="tag">${data.portfolio[i].tag}</h6><h6 id="title"><a href="/portfolio/${data.portfolio[i].homepage}">${data.portfolio[i].title}</a></h6></div>`
+				}
+			}
+		})
+	</script>
+</head>
+<body>
+	<header></header>
+
+	<main>
+		<div class="container container-tablet">
+			<div class="hero">
+				<div class="hero">
+					<h5 style="margin: 0;">These are all the portfolios I've worked on.</h5>
+				</div>
+			</div>
+		</div>
+		<hr style="margin: 0 !important;">
+		<div class="container container-tablet">
+			<div class="hero">
+				<h6>Latest project</h6>
+				<br>
+				<div id="portfolio" class="flex column"></div>
+			</div>
+		</div>
+	</main>
+	<footer></footer>
+
+	<script src="./portfolio.js"></script>
+</body>
+</html>
