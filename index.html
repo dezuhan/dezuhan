@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dezuhan • Links</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50:'#fff7ed',100:'#ffedd5',200:'#fed7aa',300:'#fdba74',400:'#fb923c',
+              500:'#f97316',600:'#ea580c',700:'#c2410c',800:'#9a3412',900:'#7c2d12'
+            },
+            surface: { DEFAULT: '#0b0b14', soft: '#11131b', ring:'rgba(255,255,255,0.08)'}
+          },
+          boxShadow: {
+            card: '0 20px 60px -10px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.15)'
+          },
+          borderRadius: { '3xl': '1.75rem' },
+          keyframes: {
+            moveGrad: {
+              '0%':   { backgroundPosition: '0% 0%' },
+              '50%':  { backgroundPosition: '100% 50%' },
+              '100%': { backgroundPosition: '0% 0%' }
+            }
+          },
+          animation: { 'grad-slow': 'moveGrad 18s ease-in-out infinite' }
+        }
+      }
+    }
+  </script>
+  <style>
+    .banner{ background-image: radial-gradient(900px 360px at -10% -30%, rgba(251, 146, 60, .55), transparent 60%),
+                               radial-gradient(800px 300px at 110% -20%, rgba(249, 115, 22, .45), transparent 60%),
+                               linear-gradient(135deg, #11131b 0%, #1b1721 48%, #11131b 100%); }
+    .stripe::before{ content:''; position:absolute; inset:0;
+      background: repeating-linear-gradient(120deg, rgba(255,255,255,.08) 0 44px, transparent 44px 88px);
+      mix-blend-mode: overlay; pointer-events:none;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,0));
+    }
+    .bg-animate{ background-image:
+      radial-gradient(800px 300px at 20% 0%, rgba(249,115,22,.22), transparent 60%),
+      radial-gradient(800px 300px at 80% 0%, rgba(251,146,60,.18), transparent 60%),
+      linear-gradient(120deg, #0b0b14, #141a2a, #0b0b14);
+      background-size: 120% 120%, 120% 120%, 200% 200%;
+      animation: moveGrad 22s ease-in-out infinite;
+    }
+    .ring-soft{ box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
+    .tile{ transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease; }
+    .tile:hover{ transform: translateY(-3px) scale(1.02); box-shadow: 0 12px 30px rgba(0,0,0,.25); }
+    .avatarGlow{ box-shadow: 0 0 0 6px rgba(255,255,255,.08); }
+  </style>
+</head>
+<body class="min-h-screen bg-animate flex items-center justify-center p-6 text-white">
+  <main class="w-full max-w-[680px]">
+    <section class="relative rounded-3xl shadow-card overflow-hidden ring-1 ring-white/10 backdrop-blur supports-[backdrop-filter]:bg-white/5">
+      <!-- Banner -->
+      <div class="relative banner h-56">
+        <div class="absolute inset-0 stripe"></div>
+        <!-- Avatar with uploaded photo -->
+        <div class="absolute left-6 bottom-[-28px] w-24 h-24 rounded-full overflow-hidden avatarGlow ring-1 ring-white/10">
+          <img src="./profile-picture.jpg" alt="Dezuhan" class="w-full h-full object-cover" onerror="this.parentElement.classList.add('bg-brand-600'); this.replaceWith(Object.assign(document.createElement('i'),{className:'bx bxs-brush text-4xl flex items-center justify-center w-full h-full'}));" />
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="bg-surface-soft">
+        <div class="px-6 sm:px-8 pt-10 pb-6">
+          <div class="flex items-center justify-between gap-4">
+            <div class="min-w-0"> 
+              <div class="flex items-center gap-2 text-2xl font-semibold leading-none">
+                <span>Dezuhan</span>
+                <!-- Verified blue checkmark -->
+                <span class="inline-flex items-center" title="Verified">
+                  <svg viewBox="0 0 24 24" class="w-5 h-5" aria-hidden="true">
+                    <defs>
+                      <linearGradient id="v" x1="0" x2="1">
+                        <stop offset="0" stop-color="#3b82f6"/>
+                        <stop offset="1" stop-color="#60a5fa"/>
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#v)" d="M12 2.75c1.2 0 2.3.5 3.1 1.3l.6.6.8-.2c.4-.1.8 0 1.1.3l1.6 1.6c.3.3.4.7.3 1.1l-.2.8.6.6c.8.8 1.3 1.9 1.3 3.1s-.5 2.3-1.3 3.1l-.6.6.2.8c.1.4 0 .8-.3 1.1l-1.6 1.6c-.3.3-.7.4-1.1.3l-.8-.2-.6.6c-.8.8-1.9 1.3-3.1 1.3s-2.3-.5-3.1-1.3l-.6-.6-.8.2c-.4.1-.8 0-1.1-.3L4.8 18c-.3-.3-.4-.7-.3-1.1l.2-.8-.6-.6A4.4 4.4 0 0 1 2.75 12c0-1.2.5-2.3 1.3-3.1l.6-.6-.2-.8c-.1-.4 0-.8.3-1.1L6.5 4.8c.3-.3.7-.4 1.1-.3l.8.2.6-.6A4.4 4.4 0 0 1 12 2.75z"/>
+                    <path fill="#fff" d="M10.4 12.7l-1.9-1.8a1 1 0 1 0-1.4 1.4l2.6 2.6a1 1 0 0 0 1.4 0l5.6-5.6a1 1 0 1 0-1.4-1.4l-5 5z"/>
+                  </svg>
+                </span>
+              </div>
+              <p class="text-white/60 mt-1">@dezuhan</p>
+            </div>
+            <!-- Follow button goes to Instagram -->
+            <a href="https://instagram.com/dezuhan" target="_blank" rel="noopener" class="rounded-full bg-white text-black px-5 py-2.5 text-sm font-medium hover:opacity-90 transition ring-1 ring-black/10 shrink-0">Follow</a>
+          </div>
+
+          <!-- Bio -->
+          <p class="mt-4 text-white/80 max-w-[60ch]">Graphic Designers in several companies<br>Ungraduated Graphic Design Student UNESA<br>LEVEL II VCD KKNI Certification</p>
+
+          <!-- Links list: icon row + buttons (VGen & Upwork) -->
+          <div class="mt-6">
+            <!-- Icon row -->
+            <div class="flex items-center gap-3">
+              <a href="https://www.linkedin.com/in/dzuhan" target="_blank" rel="noopener" title="LinkedIn" class="tile ring-soft w-12 h-12 rounded-xl flex items-center justify-center hover:bg-white/5">
+                <i class='bx bxl-linkedin-square text-2xl'></i>
+              </a>
+              <a href="https://instagram.com/dezuhan" target="_blank" rel="noopener" title="Instagram" class="tile ring-soft w-12 h-12 rounded-xl flex items-center justify-center hover:bg-white/5">
+                <i class='bx bxl-instagram text-2xl'></i>
+              </a>
+              <a href="https://tiktok.com/dezuhan_" target="_blank" rel="noopener" title="Tiktok" class="tile ring-soft w-12 h-12 rounded-xl flex items-center justify-center hover:bg-white/5">
+                <i class='bx bxl-tiktok text-2xl'></i>
+              </a>
+              <a href="https://behance.com/dezuhan" target="_blank" rel="noopener" title="Tiktok" class="tile ring-soft w-12 h-12 rounded-xl flex items-center justify-center hover:bg-white/5">
+                <i class='bx bxl-behance text-2xl'></i>
+              </a>
+              <a href="https://dezuhan.myr.id" target="_blank" rel="noopener" title="Our Merchandise" class="tile ring-soft w-12 h-12 rounded-xl flex items-center justify-center hover:bg-white/5">
+                <i class='bx bx-shopping-bag text-2xl'></i>
+              </a>
+            </div>
+
+            <!-- Buttons for VGen & Upwork -->
+            <div class="mt-4 space-y-3">
+              <a href="https://vgen.co/dezuhan" target="_blank" rel="noopener" class="tile ring-soft rounded-xl h-11 px-4 flex items-center justify-center gap-3 hover:bg-white/5 w-full">
+                <svg viewBox="0 0 166.84 129.79" class="w-5 h-5" aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M58.66,48.13c7.29-54.66,72.02-65.69,100.43-17.92,15.13,25.44,6.11,38.25-10.02,58.82-32.48,41.39-66.74,57.22-110.87,19.08C29.17,100.3,4.54,74.42,1.36,63.95-6.96,36.6,24.79,15.47,46.68,34.62c4.59,4.02,6.81,10.07,11.98,13.51ZM99.41,14.37c-12.51,1.95-24.05,14.35-26.46,26.53-3.75,18.95,7.26,30.46,19.7,42.73-10.25,9.5-21.54,1.46-30.45-5.53-12.75-10.01-20.31-23.93-30.99-34.01-7.92-7.47-19.75.22-17.07,10.06.99,3.64,11.87,16.46,15.02,19.99,14.67,16.44,36.64,37.89,60.56,33.53,16.92-3.08,45.75-34.56,53.39-49.61,4.18-8.23,1.96-13.88-2.27-21.6-8.7-15.88-22.85-24.99-41.43-22.09Z"/><path d="M103.41,34.37c6.89-1.26,12.92,2.17,16.7,7.83,7.48,11.22-5.26,18.32-11.04,26.89-.94.2-12.77-11.27-13.93-12.92-5.64-8-1.09-20.09,8.27-21.8Z"/></svg>
+                <span class="text-sm font-medium">VGen</span>
+              </a>
+              <a href="https://www.upwork.com/freelancers/~01f4894907253ed5b2?mp_source=share" target="_blank" rel="noopener" class="tile ring-soft rounded-xl h-11 px-4 flex items-center justify-center gap-3 hover:bg-white/5 w-full">
+                <i class='bx bxl-upwork text-xl'></i>
+                <span class="text-sm font-medium">Upwork</span>
+              </a>
+            </div>
+
+            <!-- WhatsApp CTA remains as a wide button -->
+            <a href="https://wa.me/6285156216653" target="_blank" rel="noopener" class="mt-4 tile ring-soft rounded-xl h-[3.25rem] px-4 flex items-center justify-center gap-3 hover:bg-white/5 bg-brand-600/20 ring-1 ring-brand-500/40 w-full">
+              <i class='bx bxl-whatsapp text-xl'></i>
+              <span class="text-sm font-medium">Get in Touch</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
