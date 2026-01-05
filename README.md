@@ -1,9 +1,9 @@
 > ## Hi, i'm Dzuhan Ramadhan 👋
 
-Oct 2004 🤙. Besides coding skills, I also become a designer, especially logo design or visual brand design. Just human, like you. From 🇮🇩 Indonesia.
+Graphic Designer at Surabaya. Ungraduated Graphic Design Student UNESA, LEVEL II VCD KKNI Certification
 
 * ☕ [Buy Me a Coffee](https://www.ko=fi.com/dezuhan)
-* 📱 Stay connected [click here](https://dezuhan.bio.link)
+* 📱 Stay connected [click here](https://dezuhan.my.id)
 
 ## My Skills
 
